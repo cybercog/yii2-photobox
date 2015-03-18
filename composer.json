@@ -16,12 +16,6 @@
             "cnxfaeton\\file\\": ""
         }
     },
-   "repositories": [
-        {
-            "url": "https://github.com/cnx-faeton/photobox.git",
-            "type": "git"
-        }
-    ],
     "require": {
         "cnx-faeton/photobox": "*"
     }
