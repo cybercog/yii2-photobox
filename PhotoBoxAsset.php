@@ -10,19 +10,21 @@ use yii\web\AssetBundle;
 
 class PhotoBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/cnx-faeton/photobox/';
+    public $sourcePath = '@vendor/cnx-faeton/photobox';
 
     public $js = [];
     
     public $css = [
-        'jquery.fancybox.css'
+        'styles.css',
+		'photobox/photobox.css',
+		'photobox/photobox.ie.css'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
     ];
     
     public function registerAssetFiles($view) {
-        $this->js[] = 'jquery.fancybox' . (!YII_DEBUG ? '.pack' : '') . '.js';
+        $this->js[] = 'photobox/jquery.photobox.js';
         parent::registerAssetFiles($view);
     }
 } 
