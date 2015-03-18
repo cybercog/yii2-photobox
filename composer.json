@@ -17,6 +17,6 @@
         }
     },
     "require": {
-        "cnx-faeton/photobox": "*"
+        "cnx-faeton/photobox": "dev-master"
     }
 }
