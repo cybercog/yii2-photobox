@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 
 class PhotoBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/cnx-faeton/photobox/source/';
+    public $sourcePath = '@vendor/cnx-faeton/photobox/';
 
     public $js = [];
     
