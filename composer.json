@@ -18,11 +18,11 @@
     },
    "repositories": [
         {
-            "url": "https://github.com/yairEO/photobox.git",
+            "url": "https://github.com/cnx-faeton/photobox.git",
             "type": "git"
         }
     ],
     "require": {
-        "yairEO/photobox": "*"
+        "cnx-faeton/photobox": "*"
     }
 }
