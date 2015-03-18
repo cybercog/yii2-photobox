@@ -1,6 +1,6 @@
 {
     "name": "cnx-faeton/yii2-photobox",
-    "description": "A lightweight CSS3 image gallery that is pretty to look and and easy to use",
+    "description": "A lightweight CSS3 image gallery that is pretty to look and and easy to use.",
     "keywords": ["yii2", "extension", "jquery"],
     "homepage": "https://github.com/cnx-faeton/yii2-photobox",
     "type": "yii2-extension",
